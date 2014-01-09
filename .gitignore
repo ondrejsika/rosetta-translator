@@ -1,0 +1,11 @@
+*.pyc
+*.db
+
+*.po
+*.pot
+*.mo
+
+env/*
+rosetta_translator/static/
+
+!.gitkeep
