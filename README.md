@@ -18,6 +18,7 @@ cd rosetta-translator
 virtualenv env
 ./env/bin/pip install -r requirements.txt
 ./manage.py syncdb
+./manage.py collectstatic --noinput
 ```
 
 ### Run
