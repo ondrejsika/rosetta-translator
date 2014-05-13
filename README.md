@@ -16,7 +16,7 @@ Documentation
 git clone https://github.com/ondrejsika/rosetta-translator.git
 cd rosetta-translator
 virtualenv env
-./env/bin/pip install -r requirements
+./env/bin/pip install -r requirements.txt
 ./manage.py syncdb
 ```
 
